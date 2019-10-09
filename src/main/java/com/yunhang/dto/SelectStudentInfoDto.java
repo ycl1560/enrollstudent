@@ -4,7 +4,10 @@ import lombok.Data;
 
 import javax.persistence.Column;
 import java.util.Date;
-
+/**
+ * @author yangchunlu
+ * @date 2019-9-28
+ */
 @Data
 public class SelectStudentInfoDto {
     /**
@@ -50,6 +53,7 @@ public class SelectStudentInfoDto {
      */
     @Column(name = "create_time")
     private Date createTime;
+
 
 
 }

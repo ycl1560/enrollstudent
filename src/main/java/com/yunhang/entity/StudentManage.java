@@ -60,11 +60,14 @@ public class StudentManage {
      * 注册时间
      */
     @Column(name = "create_time")
-    private Date createTime;
+    private String createTime;
 
     /**
      * 删除学生(4,显示:8,不显示)
      */
     @Column(name = "mark")
     private Short mark;
+
+
+
 }
